@@ -19,7 +19,7 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-    name="census-income",
+    name="House_pricing",
        version="0.0.1",
        author="jyoti kapoor",
        author_email="jyotikpr999@gmail.com",
