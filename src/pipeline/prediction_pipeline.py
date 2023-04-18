@@ -26,7 +26,7 @@ class PredictPipeline:
 
         except Exception as e:
             logging.info("Exception occured in prediction")
-            raise CustomException(e,sys)
+            raise customException(e,sys)
         
 class CustomData:
     def __init__(self,
